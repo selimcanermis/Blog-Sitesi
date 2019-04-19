@@ -1,0 +1,84 @@
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\MvcBlogSite.dll.config
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\MvcBlogSite.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\MvcBlogSite.pdb
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Helpers.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Mvc.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Razor.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Razor.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Razor.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Razor.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Helpers.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\System.Web.Mvc.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.csproj.CoreCompileInputs.cache
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.pdb
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\EntityFramework.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\EntityFramework.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\PagedList.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\PagedList.Mvc.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\PagedList.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\PagedList.Mvc.xml
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\GridMvc.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\bin\en\MvcBlogSite.resources.dll
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.dil.resources
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.dil.en.resources
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.csproj.GenerateResource.Cache
+C:\Users\Selim Can\source\repos\MvcBlogSite\MvcBlogSite\obj\Debug\en\MvcBlogSite.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\MvcBlogSite.dll.config
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\MvcBlogSite.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\MvcBlogSite.pdb
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\en\MvcBlogSite.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\EntityFramework.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\GridMvc.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\PagedList.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\PagedList.Mvc.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Helpers.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Mvc.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Razor.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Razor.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\EntityFramework.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\PagedList.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\PagedList.Mvc.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Razor.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Webpages.Razor.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Helpers.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\System.Web.Mvc.xml
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.csprojAssemblyReference.cache
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.dil.resources
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.dil.en.resources
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.csproj.GenerateResource.cache
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.csproj.CoreCompileInputs.cache
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\en\MvcBlogSite.resources.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.csproj.CopyComplete
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.dll
+C:\Users\Selim Can\Desktop\KVOTHE\WEB ODEV\MvcBlogSite\MvcBlogSite\obj\Debug\MvcBlogSite.pdb

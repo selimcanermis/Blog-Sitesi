@@ -1,0 +1,83 @@
+﻿@model IPagedList<MvcBlogSite.Models.Makaleler>
+@using PagedList
+@using PagedList.Mvc
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-12">
+    @foreach (var item in Model)
+    {
+        <article class="col-sm-10">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+
+            @*<h2>
+                    <a href="/Home/MakaleDetay/@item.Makaleid">@item.Baslik</a>
+                </h2>
+
+                <p class="lead">
+                    Yazar <a href="/Uye/Index/@item.Uye.Uyeid">@item.Uye.KullaniciAdi</a>
+                </p>
+
+                <p><span class="glyphicon glyphiicon-time"></span>@item.Tarih</p>
+
+                <hr />
+                <img class="img-responsive" src="@item.Foto" alt="@item.Baslik" />
+                <hr />
+
+                @if (item.icerik.Length > 150)
+                {
+                    <p>@Html.Raw(item.icerik.Substring(0, 150)) .... </p>
+                }
+                else
+                {
+                    <p>@Html.Raw(item.icerik) .... </p>
+                }
+
+                <a class="btn btn-primary" href="/Home/MakaleDetay/@item.Makaleid">Devamını oku<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <hr />*@
+
+            <div class="card mb-4">
+                <h2>
+                    <a href="/Home/MakaleDetay/@item.Makaleid">@item.Baslik</a>
+                </h2>
+
+                <p class="lead">
+                    <img class="d-flex mr-3 rounded-circle" width="75" src="~/Uploads/UyeFoto/adminfoto.jpg" /> <a class="font-weight-bold">Admin</a>
+                </p>
+
+                <p><i class="far fa-clock"></i>@String.Format("{0: MMMM yyyy}", item.Tarih)    <i class="fas fa-bookmark"></i> @item.Kategori.KategoriAdi     <i class="fas fa-comment"></i> @item.Yorums.Count</p>
+
+                <img class="img-responsive" src="@item.Foto" alt="@item.Baslik" />
+
+                <div class="card-body">
+
+                    @if (item.icerik.Length > 150)
+                    {
+                        <p>@Html.Raw(item.icerik.Substring(0, 150)) .... </p>}
+                    else
+                    {
+                        <p> @Html.Raw(item.icerik) </p>}
+
+                </div>
+                <div class="card-footer text-muted">
+                    <a class="btn btn-primary" href="/Home/MakaleDetay/@item.Makaleid">Devamını oku<span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </article>
+    }
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="pagedList pagination-lg">
+                @Html.PagedListPager(Model, Page => Url.Action("index", new { Page }), PagedListRenderOptions.Classic)
+
+            </div>
+        </div>
+    </div>
+ 
+
+</div>

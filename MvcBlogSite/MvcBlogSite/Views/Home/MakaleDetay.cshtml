@@ -1,0 +1,205 @@
+﻿@model MvcBlogSite.Models.Makaleler
+
+@{
+    ViewBag.Title = "MakaleDetay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .tag {
+        background-color: beige;
+    }
+</style>
+
+<div class="col-md-12">
+    <!-- Title -->
+    <h1 class="mt-4">@Model.Baslik</h1>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Author -->
+    <p class="lead">
+        <img class="d-flex mr-3 rounded-circle" width="75" src="~/Uploads/UyeFoto/adminfoto.jpg" /> <a class="font-weight-bold">Admin</a>
+
+        @*<img src="@Model.Uye.Foto" alt="@Model.Uye.AdSoyad" />
+            <a href="/Uye/index/@Model.Uyeid">@Model.Uye.AdSoyad</a>*@
+    </p>
+    <hr>
+    <!-- Date/Time -->
+    <p><i class="far fa-clock"></i>@String.Format("{0: MMMM yyyy}", Model.Tarih)    <i class="fas fa-bookmark"></i> @Model.Kategori.KategoriAdi     <i class="fas fa-comment"></i> @Model.Yorums.Count</p>
+    <hr>
+    <!-- Preview Image -->
+    <img class="img-thumbnail" src="@Model.Foto" alt="@Model.Baslik">
+    <hr>
+    <!-- Post Content -->
+
+    <blockquote class="blockquote">
+        <p class="mb-0">
+            @Html.Raw(Model.icerik)
+        </p>
+        <div>
+            <i class="fas fa-tags"></i>
+            @foreach (var item in Model.Etikets)
+            {
+                <span class="tag">@item.EtiketAdi ,</span>
+            }
+        </div>
+    </blockquote>
+    <hr>
+
+    <!-- Comments Form -->
+    @if (Session["uyeid"] != null)
+    {
+        <div class="card my-4">
+            <h5 class="card-header">Yorum:</h5>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <textarea id="yorum" typeof="text" class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" id="gonder" class="btn btn-primary">Yorum Yap</button>
+                </form>
+            </div>
+        </div>
+    }
+    else
+    {
+        <h2>Makaleye yorum yapmak için kullanıcı girişi yapmalısınız.</h2>
+        <p><a href="/Uye/Login">Giriş Yap</a></p>
+    }
+
+    <div class="media">
+        <div>
+
+            @foreach (var item in Model.Yorums.ToList())
+            {
+                <img width="75" class="d-flex mr-3 rounded-circle" src="@item.Uye.Foto" alt="@item.Uye.AdSoyad">
+                <div class="media-body">
+                    <h5 class="mt-0">@item.Uye.KullaniciAdi</h5>
+
+                    @item.icerik - @if (Convert.ToInt32(Session["uyeid"]) == item.Uyeid)
+                    {
+                        <a class="btn btn-danger" href="/Home/YorumSil/@item.Yorumid">Sil</a>
+                    }
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+
+    @*<div class="media"> //ÖRNEK YORUM
+            <img class="mr-3" src="..." alt="Generic placeholder image">
+            <div class="media-body">
+                <h5 class="mt-0">Media heading</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+        </div>*@
+
+
+</div>
+
+<script src="~/Content/vendor/jquery/jquery.min.js"></script>
+<script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $("#gonder").click(function () {
+            var yorumunuz = $("#yorum").val();
+            $.ajax({
+                url: '/Home/YorumYap/',
+                data: {yorum:yorumunuz, Makaleid:@Model.Makaleid},
+                type: 'POST',
+                dataType: 'json',
+                success: function (data) {
+                    alert("Yorum Gönderildi" + yorumunuz);
+                }
+            });
+
+        });
+    })
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Home/OkunmaArttir/',
+            data: {Makaleid: @Model.Makaleid},
+            type: 'POST',
+
+        });
+    })
+</script>
+
+
+@* OTOMATİK OLUŞAN MAKALE DETAY SAYFASI
+
+        <h2>MakaleDetay</h2>
+
+    <div>
+        <h4>Makaleler</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Kategori.KategoriAdi)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Kategori.KategoriAdi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Uye.KullaniciAdi)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Uye.KullaniciAdi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Baslik)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Baslik)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.icerik)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.icerik)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Foto)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Foto)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Tarih)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tarih)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Okunma)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Okunma)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Makaleid }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>*@
